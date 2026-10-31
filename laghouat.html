@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="theme-color" content="#1B2939">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Laghouat · Bouziane Brik</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Dr. Bouziane Brik, Associate Professor of Computer Science at the University of Sharjah. Trustworthy AI for autonomous 5G/6G network management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="site.css">
+
+<style>
+.explore{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.explore a{display:flex;flex-direction:column;gap:6px;padding:16px;border:1px solid var(--rule);background:var(--surface);text-decoration:none;color:var(--ink);min-width:0}
+.explore a:hover{border-color:var(--accent)}
+.explore b{font:600 17px var(--f-display)}
+.explore span{font-size:14px;color:var(--muted);line-height:1.45}
+.pager{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid var(--rule);padding-top:18px;font:500 14px var(--f-display)}
+.pager a{text-decoration:none}
+.pager small{display:block;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.pager .nx{text-align:right;margin-left:auto}
+</style>
+</head>
+<body>
+<header class="top gut">
+  <div class="in">
+    <a class="logo" href="index.html" aria-label="Bouziane Brik, home">b.brik<i>/</i>6g</a>
+    <nav aria-label="Site"><ul class="menu"><li><a href="index.html">About</a></li><li><a href="news.html">News</a></li><li><a href="research.html">Research</a></li><li><a href="experience.html">Experience</a></li><li><a href="projects.html">Projects</a></li><li><a href="publications.html">Publications</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="supervision.html">Supervision</a></li><li><a href="honours.html">Honours</a></li><li><a href="contact.html">Contact</a></li><li><a href="laghouat.html" class="on" aria-current="page">Laghouat</a></li></ul></nav>
+  </div>
+</header>
+<div class="shell gut">
+
+<main>
+<section id="laghouat" aria-labelledby="lag-h">
+  <div class="sec-head"><span class="label">11</span><h2 id="lag-h">Laghouat, my home city</h2></div>
+  <div class="city">
+    <div class="prose just">
+      <p class="lede">I was born and raised in Laghouat, where I also studied for all my degrees at Amar Telidji University. This page is a short introduction to the city.</p>
+      <p>Laghouat is the capital of Laghouat Province in Algeria. It lies about 400 km south of the capital, Algiers, in the Amour Range of the Saharan Atlas, at an altitude of 769 m. The city is an oasis on the northern edge of the Sahara.</p>
+      <p>Its history goes back to at least the 11th century. It came under Ottoman rule in 1786 as part of the Beylik of Titteri, went through the siege of Laghouat in 1852 and remained under French colonial rule until Algerian independence in 1962. It has been the seat of its province since 1974.</p>
+      <p>Today Laghouat is an administrative centre and a market town, known for its rug and tapestry weaving. The region is rich in natural gas: nearby Hassi R'Mel holds one of the largest natural gas reserves in Africa. The city had 134,372 inhabitants at the 2008 census.</p>
+      <p class="src">Source: <a href="https://en.wikipedia.org/wiki/Laghouat" target="_blank" rel="noopener">Laghouat on Wikipedia</a>.</p>
+    </div>
+    <figure><img src="images/laghouat-night.jpg" width="399" height="501" alt="Laghouat at night: a palm-lined roundabout in front of a large illuminated mosque"><figcaption>Laghouat by night.</figcaption></figure>
+  </div>
+  <div class="gallery">
+    <figure><img src="images/laghouat-collage.jpg" width="960" height="713" alt="Collage of Laghouat: the old town on the hill, historic buildings, a town square, a church with twin towers, palm groves and a traditional alley" loading="lazy"><figcaption>Views of Laghouat: the old town, historic buildings, the town centre and the palm groves of the oasis.</figcaption></figure>
+  </div>
+</section>
+<div class="pager"><a href="contact.html"><small>Previous</small>← Contact</a></div>
+</main>
+</div>
+<footer class="foot gut"><div class="in"><span>© 2026 Bouziane Brik · Metrics as of 2026 (Google Scholar, Scopus, Web of Science, DBLP)</span><span class="ids"><a href="https://scholar.google.fr/citations?user=c3EPy9sAAAAJ&amp;hl=fr" target="_blank" rel="noopener">Scholar</a><a href="https://dblp.org/pid/133/4736.html" target="_blank" rel="noopener">DBLP</a><a href="https://www.scopus.com/authid/detail.uri?authorId=55490670200" target="_blank" rel="noopener">Scopus</a><a href="https://orcid.org/0000-0002-3267-5702" target="_blank" rel="noopener">ORCID</a></span></div></footer>
+
+<script>
+(function(){
+  /* Network graphic: slow-drifting nodes with links, amber hubs. */
+  var c=document.getElementById('net'); if(!c||!c.getContext) return;
+  var x=c.getContext('2d'), still=window.matchMedia('(prefers-reduced-motion: reduce)').matches, W, H, P, raf;
+  function size(){var d=Math.min(2,window.devicePixelRatio||1);W=c.clientWidth;H=c.clientHeight;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0);
+    var n=Math.round(Math.min(80,W*H/12000));P=[];for(var i=0;i<n;i++)P.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.25,hub:Math.random()<.12})}
+  function draw(){x.clearRect(0,0,W,H);
+    for(var i=0;i<P.length;i++){var a=P[i];for(var j=i+1;j<P.length;j++){var b=P[j],d=Math.hypot(a.x-b.x,a.y-b.y);
+      if(d<140){x.strokeStyle='rgba(92,200,215,'+((1-d/140)*.3)+')';x.lineWidth=1;x.beginPath();x.moveTo(a.x,a.y);x.lineTo(b.x,b.y);x.stroke()}}}
+    P.forEach(function(p){x.fillStyle=p.hub?'rgba(242,165,65,.9)':'rgba(92,200,215,.6)';x.beginPath();x.arc(p.x,p.y,p.hub?3:1.8,0,7);x.fill();
+      if(!still){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1}});
+    if(!still) raf=requestAnimationFrame(draw)}
+  size();draw();window.addEventListener('resize',function(){cancelAnimationFrame(raf);size();draw()});
+})();
+
+(function(){
+  /* Publication filter + search */
+  var list=document.getElementById('publist'); if(!list) return;
+  var items=[].slice.call(list.querySelectorAll('li:not(.yearrow)')), years=[].slice.call(list.querySelectorAll('.yearrow'));
+  var btns=[].slice.call(document.querySelectorAll('.tabs button')), q=document.getElementById('pubsearch'), empty=document.getElementById('pubempty');
+  var f='S';
+  function apply(){
+    var term=(q.value||'').trim().toLowerCase(), shown=0, seen={};
+    items.forEach(function(li){
+      var ok=(f==='A'||(f==='S'?li.dataset.sel==='1':li.dataset.t===f)) && (!term||li.textContent.toLowerCase().indexOf(term)>-1);
+      li.hidden=!ok; if(ok){shown++; seen[li.dataset.y]=1}
+    });
+    years.forEach(function(y){y.hidden=!seen[y.dataset.y]});
+    empty.hidden=shown>0;
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){f=b.dataset.f;btns.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});apply()})});
+  q.addEventListener('input',function(){ if(q.value && f==='S'){f='A';btns.forEach(function(x){x.setAttribute('aria-pressed',x.dataset.f==='A'?'true':'false')})} apply()});
+  apply();
+})();
+
+(function(){
+  /* Copy buttons */
+  document.querySelectorAll('.copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=b.dataset.copy, done=function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1600)};
+      try{navigator.clipboard.writeText(t).then(done,function(){sel(b)})}catch(e){sel(b)}
+    });
+  });
+  function sel(b){var code=b.previousElementSibling,r=document.createRange();r.selectNodeContents(code);var s=getSelection();s.removeAllRanges();s.addRange(r)}
+})();
+
+(function(){var a=document.querySelector('.menu a.on'),u=a&&a.closest('.menu');if(u&&u.scrollWidth>u.clientWidth)u.scrollLeft=a.parentNode.offsetLeft-16})();
+</script>
+
+</body>
+</html>
