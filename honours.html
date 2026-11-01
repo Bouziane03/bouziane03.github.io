@@ -20,7 +20,9 @@
 .explore span{font-size:14px;color:var(--muted);line-height:1.45}
 .pager{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid var(--rule);padding-top:18px;font:500 14px var(--f-display)}
 .pager a{text-decoration:none}
-.award-photo{margin:36px 0 0;max-width:760px}
+.award-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 20px;max-width:820px;margin-top:36px;align-items:start}
+@media (max-width:560px){.award-grid{grid-template-columns:minmax(0,1fr)}}
+.award-photo{margin:0}
 .award-photo img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--rule)}
 .award-photo figcaption{margin-top:10px;font-size:14px;color:var(--muted)}
 .pager small{display:block;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
@@ -51,6 +53,7 @@
     <div><span class="yr">—</span><span><span class="r">IEEE Senior Member</span></span></div>
     <div><span class="yr">2010</span><span><span class="r">Ranked first</span> in the Engineering class, University of Laghouat</span></div>
   </div>
+  <div class="award-grid">
   <figure class="award-photo">
     <img src="images/promotion-2026-2.jpg" width="1400" height="1050" alt="Dr. Bouziane Brik receiving his promotion certificate at the University of Sharjah" loading="lazy">
     <figcaption>Receiving the promotion to Associate Professor at the University of Sharjah, 2026.</figcaption>
@@ -67,6 +70,7 @@
     <img src="images/aaiet-2025-keynote-1.jpg" width="1280" height="884" alt="AAIET 2025 certificate of appreciation for Dr. Brik Bouziane as plenary speaker" loading="lazy">
     <figcaption>Certificate of appreciation as plenary speaker at AAIET 2025, University of Djelfa, December 2025.</figcaption>
   </figure>
+  </div>
 </section>
 
 
