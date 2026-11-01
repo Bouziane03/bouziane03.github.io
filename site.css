@@ -254,3 +254,5 @@ figcaption{font-size:13.5px;color:var(--muted)}
 .nphotos figure{margin:0}
 .nphotos img{display:block;width:100%;height:auto;border:1px solid var(--rule);border-radius:4px}
 .nphotos.pair{grid-template-columns:repeat(2,minmax(0,1fr));max-width:420px}
+.nphotos.solo{max-width:220px}
+.ntag.visit{color:#9FE0A0;border-color:#9FE0A0}
